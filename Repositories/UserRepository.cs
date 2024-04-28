@@ -9,9 +9,12 @@ namespace AdminAPI.Repositories
     {
         private readonly string _connectionString;
 
-        public UserRepository(IConfiguration configuration)
+        public UserRepository(IConfiguration configuration, string testConnectionString = "")
         {
-            _connectionString = configuration.GetConnectionString("DefaultConnection");
+            if(configuration == null)
+                _connectionString = testConnectionString;
+            else 
+                _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
         public async Task<int> Add(UserModel userModel)
