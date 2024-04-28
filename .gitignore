@@ -1,0 +1,71 @@
+# Visual Studio Code
+.vscode/
+
+# Visual Studio files
+*.user
+*.suo
+*.sln.docstates
+*.userprefs
+*.bak
+
+# Resharper
+_ReSharper.*
+
+# Rider
+.idea/
+
+# NuGet
+*.nuget.props
+*.lock
+packages/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio 2017/2019 cache files
+.vs/
+*.vspscc
+*.vssscc
+*.builds
+*.pidb
+*.svclog
+*.vspscc
+
+# Visual Studio 2022
+.vs2019/
+*.vs2022
+*.vsix
+.vsconfig
+
+# Rider
+.idea/
+*.sln.iml
+.idea/inspectionProfiles
+
+# Build Results
+_ReSharper*/
+*.ncrunch*
+*.DotSettings.user
+
+# Unity3D generated files
+Temp/
+Library/
+Build/
+.vscode/
